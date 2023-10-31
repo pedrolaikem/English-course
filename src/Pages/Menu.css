@@ -1,0 +1,26 @@
+/* Nav-bar styling */
+
+nav{
+    background: var(--main-red);
+    height: 40px;
+    width: 100vw;
+}
+
+.img-logo{
+    float: left;
+    max-width: 100%;
+    padding: 4px;
+}
+
+li{
+    margin-right: 25px;
+    display: inline;
+}
+
+ul {
+    float: right;
+    padding-top: 8px;
+}
+
+
+

@@ -1,0 +1,30 @@
+.Button-1, .Button-2{
+    position: absolute;
+    left: 15%;
+    top: 35%;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 50px;
+    background-color: #ffffff;
+    padding: 16px 30px;
+    width: 280px; 
+    max-width: 100%;
+    transition-duration: 0.4s;
+}
+.Button-1:hover, .Button-2:hover {
+    background-color: #1c1462;
+    opacity: 0.6!important;
+}
+.Button-2 {
+    top: 42%;
+}
+.btn-text {
+    color: black;
+}
+
+@media (max-width: 768px) { 
+    .Buttons{
+        width: 20%;
+        height: 20%;
+    }
+}
