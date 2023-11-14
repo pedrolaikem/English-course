@@ -1,26 +1,21 @@
-
-main {
-    text-align: center;
-}
-
 .Images {
-    text-align: center;
+    width: 100vw;
+    height: 50vh;
     display: flex;
-    
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 .Polaroids {
-    width: 60%;
-    max-width: 100%;
-    position: relative;
-    left: 12%;
+    width: 100%;
 }
-
+.img-2 {
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
 .Texto {
-    width: 40%;
-    max-width: 100%;
-    position: absolute;
-    top: 8%;
-    
+    width: 100%;
 }
 
 

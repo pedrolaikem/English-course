@@ -8,8 +8,8 @@ function Images (){
             <div className="img-txt">
                 <img src={text} alt="texto" className="Texto" />
             </div>
-            <div>
-                    <img src={polaroids} alt="Polaroides" className="Polaroids"/>
+            <div className="img-2">
+                <img src={polaroids} alt="Polaroides" className="Polaroids"/>
             </div>
                 
         </div>

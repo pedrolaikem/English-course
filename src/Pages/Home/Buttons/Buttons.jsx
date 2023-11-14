@@ -1,20 +1,16 @@
 import './Buttons.css'
 
-const Buttons = () => {
+function Buttons (){
     return (
         <div className="Buttons">
-            <div className="Button-1">
-                <a className="btn-text">
-                    Conheça nossos preços e horários
-                </a>
-            </div>
-            <div className="Button-2">
-                <a className="btn-text">
-                    Faça seu placement test       
-                </a>
-            </div>
-        </div>
-         
+            <a className="Button-1 ">
+                Conheça nossos preços e horários
+            </a>
+            <br />
+            <a className="Button-2">
+                Faça seu placement test       
+            </a>
+        </div>   
     )
 }
 

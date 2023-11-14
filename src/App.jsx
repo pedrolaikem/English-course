@@ -15,7 +15,6 @@ function App () {
                 <Route path="/faça-sua-matricula" element={<Matricula />}/>  
             </Routes>
         </BrowserRouter>
-        
     </div>
     
     )

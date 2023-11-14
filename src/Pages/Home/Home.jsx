@@ -1,8 +1,7 @@
 import Menu from "../Menu"
 import Images from "./Images/Images"
-import Buttons from './Buttons/Buttons'
 import Videos from './Video/Videos'
-import App from './Buttons/Buttons'
+import Buttons from './Buttons/Buttons'
 import './Video/Video.css'
 
 function Home (){
@@ -13,8 +12,7 @@ function Home (){
             <section id="section-1" className="section-1">
                 <main>
                     <Images />
-                    <Buttons />
-                    <App />
+                    <Buttons  />
                 </main>
             </section>
         {/*Video section*/}

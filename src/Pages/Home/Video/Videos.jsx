@@ -1,5 +1,5 @@
-import Evolve from './video/videoenglish.mp4'
-import Poster from './video/videoposter.png'
+import Evolve from '../video/videoenglish.mp4'
+import Poster from '../video/videoposter.png'
 
 function Videos (){
     return (
